@@ -1,0 +1,15 @@
+include: package:very_good_analysis/analysis_options.yaml
+analyzer: 
+  exclude:
+    - lib/common/gen/l10n/intl/messages_all.dart
+    - lib/common/gen/l10n/intl/messages_en.dart
+    - lib/common/gen/l10n/intl/messages_tr.dart
+    - lib/common/gen/l10n/l10n.dart
+    - lib/**/*.g.dart
+    - build/
+    
+linter:
+  rules:
+    public_member_api_docs: false
+    sort_pub_dependencies: false
+    always_use_package_imports: false
