@@ -1,16 +1,49 @@
-# super_car
+# 🚗 Super Car (Mobil Uygulama Entegrasyonu ile)
 
-A new Flutter project.
+## 📌 Proje Amacı
+Bu projenin amacı, bir aracı mesafe fark etmeksizin kontrol edebilmek ve bulunduğu ortamın sıcaklık ve nem oranını ölçmektir. Mobil uygulama entegrasyonu sayesinde kullanıcı, aracı istediği yerden yönetebilir ve çevresel koşulları anlık olarak izleyebilir.
 
-## Getting Started
+## 📖 Proje Özeti
+Super Car projesi, bir akıllı araç ve mobil uygulama entegrasyonunu kapsamaktadır. Araç ile mobil uygulama arasında iletişim, **Firebase Realtime Database** üzerinden sağlanmaktadır.  
+Kullanıcılar:
+- Aracı uzaktan yönlendirebilir
+- Ortam sıcaklığı ve nem oranlarını gerçek zamanlı görebilir
 
-This project is a starting point for a Flutter application.
+## 🔧 Kullanılan Donanımlar
+- **NodeMCU ESP8266:** Wi-Fi modülü
+- **L298N:** Motor sürücü modülü
+- **DHT11:** Sıcaklık ve nem sensörü
+- **DC Motor (2 adet)**
+- **Şarj edilebilir lityum pil (5 adet)**
+- **Mercimek kondansatör**
+- **Switch anahtar**
+- **Kablolar ve lastikler (4 adet)**
 
-A few resources to get you started if this is your first Flutter project:
+## ⚙️ Teknik Detaylar
+- Araç ilk kez çalıştırıldığında, daha önce bir ağa bağlanmamışsa kendisini bir **access point** olarak gösterir.
+- Kullanıcı bu ağa bağlanarak Wi-Fi yapılandırmasını tamamlar.
+- Eğer araç önceden bir ağa bağlandıysa, çalıştırıldığında otomatik olarak tanıdığı ağa bağlanır.
+- Veri iletişimi Firebase üzerinden sağlanır, bu sayede mobil uygulama ile gerçek zamanlı kontrol ve veri izleme mümkündür.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Mobil Uygulama
+- Mobil uygulama Flutter ile geliştirilmiştir (varsayım)
+- Firebase Realtime Database ile entegre çalışır
+- Kullanıcı arayüzü üzerinden yön, sıcaklık ve nem bilgileri görüntülenebilir
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔌 Devre Şeması
+Devre şeması aşağıdaki gibidir:
+
+![Devre Şeması](devre_tasarimi.png)
+
+## 🔌 Poster
+Projeye ait ekran görüntüleri:
+
+![Devre Şeması](SuperCar_poster.png)
+
+## 📸 Ekran Görüntüleri / Demo
+<!-- Ekran görüntüsü veya gif'in varsa buraya ekleyebilirsin -->
+
+## 👤 Geliştirici
+**Omran Alhajhossin**  
+📧 Email: omran.haj20@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/omran-alhajhossin-b1630727b](https://linkedin.com/in/omran-alhajhossin-b1630727b)
