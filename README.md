@@ -1,12 +1,12 @@
 # 🚗 Super Car (Mobil Uygulama Entegrasyonu ile)
 
 ## 📌 Proje Amacı
-Bu projenin amacı, bir aracı mesafe fark etmeksizin kontrol edebilmek ve bulunduğu ortamın sıcaklık ve nem oranını ölçmektir. Mobil uygulama entegrasyonu sayesinde kullanıcı, aracı istediği yerden yönetebilir ve çevresel koşulları anlık olarak izleyebilir.
+Bu projenin amacı, bir aracı wifi üzerinden mesafe fark etmeksizin kontrol edebilmek ve bulunduğu ortamın sıcaklık ve nem oranını ölçmektir. Mobil uygulama entegrasyonu sayesinde kullanıcı, aracı istediği yerden yönetebilir ve çevresel koşulları anlık olarak izleyebilir.
 
 ## 📖 Proje Özeti
 Super Car projesi, bir akıllı araç ve mobil uygulama entegrasyonunu kapsamaktadır. Araç ile mobil uygulama arasında iletişim, **Firebase Realtime Database** üzerinden sağlanmaktadır.  
 Kullanıcılar:
-- Araç 4 farlı vites(1-2-3-R) seçeneği ile uzaktan yönlendirilebilir
+- Aracı 4 farlı vites(1-2-3-R) seçeneği ile uzaktan yönetebilir
 - Ortam sıcaklığı ve nem oranlarını gerçek zamanlı görebilir
 
 ## 🔧 Kullanılan Donanımlar
@@ -26,17 +26,18 @@ Kullanıcılar:
 - Veri iletişimi Firebase üzerinden sağlanır, bu sayede mobil uygulama ile gerçek zamanlı kontrol ve veri izleme mümkündür.
 
 ## 📱 Mobil Uygulama
-- Mobil uygulama Flutter ile geliştirilmiştir (varsayım)
+- Mobil uygulama Flutter ile geliştirilmiştir
 - Firebase Realtime Database ile entegre çalışır
 - Kullanıcı arayüzü üzerinden yön, sıcaklık ve nem bilgileri görüntülenebilir
+
+## Poster
+![Poster](SuperCar_poster.png)
 
 ## 🔌 Devre Şeması
 Devre şeması aşağıdaki gibidir:
 ![Devre Şeması](devre_tasarimi.png)
 
-## Poster
-![Poster](SuperCar_poster.png)
-
+## 🚗 Araç Resimleri
 <p float="left">
   <img src="super_car_arac_fotografi.jpg" width="45%" />
   <img src="super_car_arac_fotografi2.jpg" width="45%" />
