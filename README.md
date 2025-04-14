@@ -6,7 +6,7 @@ Bu projenin amacı, bir aracı mesafe fark etmeksizin kontrol edebilmek ve bulun
 ## 📖 Proje Özeti
 Super Car projesi, bir akıllı araç ve mobil uygulama entegrasyonunu kapsamaktadır. Araç ile mobil uygulama arasında iletişim, **Firebase Realtime Database** üzerinden sağlanmaktadır.  
 Kullanıcılar:
-- Aracı uzaktan yönlendirebilir
+- Araç 4 farlı vites(1-2-3-R) seçeneği ile uzaktan yönlendirilebilir
 - Ortam sıcaklığı ve nem oranlarını gerçek zamanlı görebilir
 
 ## 🔧 Kullanılan Donanımlar
@@ -32,16 +32,15 @@ Kullanıcılar:
 
 ## 🔌 Devre Şeması
 Devre şeması aşağıdaki gibidir:
-
 ![Devre Şeması](devre_tasarimi.png)
 
-## 🔌 Poster
-Projeye ait ekran görüntüleri:
+## Poster
+![Poster](SuperCar_poster.png)
 
-![Devre Şeması](SuperCar_poster.png)
-
-## 📸 Ekran Görüntüleri / Demo
-<!-- Ekran görüntüsü veya gif'in varsa buraya ekleyebilirsin -->
+<p float="left">
+  <img src="super_car_arac_fotografi.jpg" width="45%" />
+  <img src="super_car_arac_fotografi2.jpg" width="45%" />
+</p>
 
 ## 👤 Geliştirici
 **Omran Alhajhossin**  
