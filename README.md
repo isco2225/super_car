@@ -45,5 +45,4 @@ Devre şeması aşağıdaki gibidir:
 
 ## 👤 Geliştirici
 **Omran Alhajhossin**  
-📧 Email: omran.haj20@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/omran-alhajhossin-b1630727b](https://linkedin.com/in/omran-alhajhossin-b1630727b)
+📧 Email: omran.haj202@gmail.com  
